@@ -1,7 +1,6 @@
-import { ChakraProvider } from "@chakra-ui/react";
 import "./App.css";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-import Header from "./Components/Header/Header";
+import { Route, Routes } from "react-router-dom";
+
 import QuizTopicsPage from "./Pages/QuizTopicsPage";
 import ReactQuiz from "./Pages/ReactQuiz";
 import htmlQuiz from "./Pages/htmlQuiz";
