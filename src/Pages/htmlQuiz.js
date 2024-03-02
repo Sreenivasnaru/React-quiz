@@ -46,7 +46,9 @@ const HtmlQuiz = () => {
       setSelectedOption("");
     } else {
       clearInterval(intervalId);
-      alert(`Quiz ended. Your score is ${score}. Now click on The Quiz`);
+      alert(
+        `Quiz ended. Your score is ${score}. Now click on "The Quiz" to go to home`
+      );
     }
   };
 
