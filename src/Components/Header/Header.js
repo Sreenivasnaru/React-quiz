@@ -9,7 +9,6 @@ const Header = () => {
         mt="10px"
         p={4}
         width="60%"
-        bgColor="white"
         fontSize="50px"
         fontWeight="500"
         borderRadius="10px"
