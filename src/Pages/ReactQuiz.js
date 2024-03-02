@@ -73,7 +73,6 @@ const ReactQuiz = () => {
         width="60%"
         height="70%"
         fontSize="25px"
-        bgColor="white"
         display="flex"
         flexDirection="column"
         boxShadow="xl"
