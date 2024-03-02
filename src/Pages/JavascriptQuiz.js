@@ -71,13 +71,12 @@ const JavascriptQuiz = () => {
       </Text>
       <Box
         color="black"
-        width="80%"
+        width="60%"
         height="70%"
         fontSize="25px"
         bgColor="white"
         display="flex"
         flexDirection="column"
-        alignItems="center"
         boxShadow="xl"
         borderRadius="40px"
         mt="20px"
@@ -106,6 +105,8 @@ const JavascriptQuiz = () => {
           onClick={handleNextButtonClick}
           disabled={timer === 0}
           colorScheme="blue"
+          mt="30px"
+          width="250px"
         >
           Next
         </Button>
